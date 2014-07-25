@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Everything is Awesome!",
+  "description": "This extension will play the 'Everything is Awesome' song.",
+  "version": "1.0",
+
+  "permissions": [
+    "https://youtube.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "lego.png",
+    "default_popup": "popup.html"
+  }
+}
