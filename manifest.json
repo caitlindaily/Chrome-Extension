@@ -9,7 +9,13 @@
     "https://youtube.com/*"
   ],
   "browser_action": {
-    "default_icon": "lego.png",
+    "default_icon": "lego16.png",
     "default_popup": "popup.html"
+  },
+
+  "icons": { 
+    "16": "lego16.png",
+    "48": "lego48.png",
+    "128": "lego128.png" 
   }
 }
